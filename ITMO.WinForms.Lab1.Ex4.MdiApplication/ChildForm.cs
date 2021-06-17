@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace ITMO.WinForms.Lab1.Ex4.MdiApplication
 {
-    public partial class ChildForm : ParentForm
+    public partial class ChildForm : Form
     {
         public ChildForm()
         {
