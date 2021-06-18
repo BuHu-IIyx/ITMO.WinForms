@@ -40,5 +40,23 @@ namespace ITMO.WinForms.Lab1.Ex4.MdiApplication
             newChild.MdiParent = this;
             newChild.Show();
         }
+
+        private void toolStripButton1_Click(object sender, EventArgs e)
+        {
+            ChildForm newChild = new ChildForm();
+            newChild.Text = newChild.Text + " " + ++openDocuments;
+            newChild.MdiParent = this;
+            newChild.Show();
+        }
+
+        private void toolStripButton2_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.Cascade);
+        }
+
+        private void toolStripButton3_Click(object sender, EventArgs e)
+        {
+            this.LayoutMdi(System.Windows.Forms.MdiLayout.TileHorizontal);
+        }
     }
 }
