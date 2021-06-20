@@ -9,11 +9,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab1.Ex2-3", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab1.Ex4.MdiApplication", "ITMO.WinForms.Lab1.Ex4.MdiApplication\ITMO.WinForms.Lab1.Ex4.MdiApplication.csproj", "{C9729444-E935-482F-9945-1D36AF91DBB5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex1.WinQuestion", "ITMO.WinForms.Lab2.Ex1\ITMO.WinForms.Lab2.Ex1.WinQuestion.csproj", "{3D9E56B2-6C13-4657-96E4-CCED028FF02B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex1.WinQuestion", "ITMO.WinForms.Lab2.Ex1\ITMO.WinForms.Lab2.Ex1.WinQuestion.csproj", "{3D9E56B2-6C13-4657-96E4-CCED028FF02B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex2.TestList", "ITMO.WinForms.Lab2.Ex2.TestList\ITMO.WinForms.Lab2.Ex2.TestList.csproj", "{75310450-CDD3-411A-B01F-DA6053BC5048}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex2.TestList", "ITMO.WinForms.Lab2.Ex2.TestList\ITMO.WinForms.Lab2.Ex2.TestList.csproj", "{75310450-CDD3-411A-B01F-DA6053BC5048}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex5.WinContainer", "ITMO.WinForms.Lab2.Ex5.WinContainer\ITMO.WinForms.Lab2.Ex5.WinContainer.csproj", "{40E52EF8-C049-4324-8290-9E890AA36571}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex5.WinContainer", "ITMO.WinForms.Lab2.Ex5.WinContainer\ITMO.WinForms.Lab2.Ex5.WinContainer.csproj", "{40E52EF8-C049-4324-8290-9E890AA36571}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex6.BiblWorm", "ITMO.WinForms.Lab2.Ex6.BiblWorm\ITMO.WinForms.Lab2.Ex6.BiblWorm.csproj", "{06C1BA05-187C-4A53-94EC-276E14DB12EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex7.RegistrationForm", "ITMO.WinForms.Lab2.Ex7.RegistrationForm\ITMO.WinForms.Lab2.Ex7.RegistrationForm.csproj", "{AEA6E6CB-4A02-416B-95EC-F36545F39B32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{40E52EF8-C049-4324-8290-9E890AA36571}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40E52EF8-C049-4324-8290-9E890AA36571}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40E52EF8-C049-4324-8290-9E890AA36571}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C1BA05-187C-4A53-94EC-276E14DB12EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C1BA05-187C-4A53-94EC-276E14DB12EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C1BA05-187C-4A53-94EC-276E14DB12EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C1BA05-187C-4A53-94EC-276E14DB12EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
