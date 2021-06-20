@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex2.Test
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex5.WinContainer", "ITMO.WinForms.Lab2.Ex5.WinContainer\ITMO.WinForms.Lab2.Ex5.WinContainer.csproj", "{40E52EF8-C049-4324-8290-9E890AA36571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex6.BiblWorm", "ITMO.WinForms.Lab2.Ex6.BiblWorm\ITMO.WinForms.Lab2.Ex6.BiblWorm.csproj", "{06C1BA05-187C-4A53-94EC-276E14DB12EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex6.BiblWorm", "ITMO.WinForms.Lab2.Ex6.BiblWorm\ITMO.WinForms.Lab2.Ex6.BiblWorm.csproj", "{06C1BA05-187C-4A53-94EC-276E14DB12EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab2.Ex7.RegistrationForm", "ITMO.WinForms.Lab2.Ex7.RegistrationForm\ITMO.WinForms.Lab2.Ex7.RegistrationForm.csproj", "{AEA6E6CB-4A02-416B-95EC-F36545F39B32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.WinForms.Lab2.Ex7.RegistrationForm", "ITMO.WinForms.Lab2.Ex7.RegistrationForm\ITMO.WinForms.Lab2.Ex7.RegistrationForm.csproj", "{AEA6E6CB-4A02-416B-95EC-F36545F39B32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.WinForms.Lab3.Ex1.WinTimer1", "ITMO.WinForms.Lab3.Ex1.WinTimer1\ITMO.WinForms.Lab3.Ex1.WinTimer1.csproj", "{6EC1913B-4F35-4B44-B41E-9CA295FFC66B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEA6E6CB-4A02-416B-95EC-F36545F39B32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EC1913B-4F35-4B44-B41E-9CA295FFC66B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EC1913B-4F35-4B44-B41E-9CA295FFC66B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EC1913B-4F35-4B44-B41E-9CA295FFC66B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EC1913B-4F35-4B44-B41E-9CA295FFC66B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
