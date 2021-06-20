@@ -71,6 +71,36 @@ namespace ITMO.WinForms.Lab2.Ex6.BiblWorm
             get { return (int)numericUpDown4.Value; }
             set { numericUpDown4.Value = value; }
         }
+        public String Volume //Том журнала
+        {
+            get { return (string)textBox4.Text; }
+            set { textBox4.Text = value; }
+        }
+        public int Number //Номер журнала
+        {
+            get { return (int)numericUpDown6.Value; }
+            set { numericUpDown6.Value = value; }
+        }
+        public String TitleMag //Название журнала
+        {
+            get { return (string)textBox6.Text; }
+            set { textBox6.Text = value; }
+        }
+        public int YearMag //Год выпуска
+        {
+            get { return (int)numericUpDown7.Value; }
+            set { numericUpDown7.Value = value; }
+        }
+        public long InvNumberMag //Инвентарный номер журнала
+        {
+            get { return (int)numericUpDown5.Value; }
+            set { numericUpDown5.Value = value; }
+        }
+        public bool Taken
+        {
+            get { return checkBox5.Checked; }
+            set { checkBox5.Checked = value; }
+        }
 
         private void button1_Click_1(object sender, EventArgs e)
         {
@@ -97,5 +127,15 @@ namespace ITMO.WinForms.Lab2.Ex6.BiblWorm
             richTextBox1.Text = sb.ToString();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Magazine b = new Magazine (Volume, Number, TitleMag, YearMag, InvNumberMag, Taken);
+            b.IfSubs = checkBox4.Checked;
+            its.Add(b);
+            Author = Title = PublishHouse = "";
+            Page = InvNumber = PeriodUse = 0;
+            Year = 2020;
+            Existence = ReturnTime = false;
+        }
     }
 }

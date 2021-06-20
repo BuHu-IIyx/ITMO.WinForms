@@ -10,7 +10,7 @@ namespace ITMO.WinForms.Lab2.Ex6.BiblWorm
         private String volume;    // том
         private int number;        // номер
         private String title;       // название
-        private int year;      // дата выпуска
+        private int year;      // Дата выпуска
 
         public bool IfSubs { get; set; } // подписка на журнал
 
