@@ -17,5 +17,16 @@ namespace ITMO.WinForms.Lab3.Ex1.WinTimer1
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (userControlTimer1.TimeEnabled)
+            {
+                userControlTimer1.TimeEnabled = false;
+            }
+            else
+            {
+                userControlTimer1.TimeEnabled = true;
+            }
+        }
     }
 }

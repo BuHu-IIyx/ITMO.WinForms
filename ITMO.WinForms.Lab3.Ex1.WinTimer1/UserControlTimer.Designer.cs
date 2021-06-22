@@ -54,7 +54,7 @@ namespace ITMO.WinForms.Lab3.Ex1.WinTimer1
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.label1);
             this.Name = "UserControlTimer";
-            this.Size = new System.Drawing.Size(105, 40);
+            this.Size = new System.Drawing.Size(55, 25);
             this.ResumeLayout(false);
             this.PerformLayout();
 
